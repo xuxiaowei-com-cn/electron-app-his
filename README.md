@@ -18,3 +18,12 @@ npm i -D eslint-plugin-import
 npm i -D eslint-plugin-jsx-a11y
 npm i -D eslint-plugin-react
 ~~~
+
+## sass/scss
+- [sass-loader](https://developer.aliyun.com/mirror/npm/package/sass-loader)
+- [sass中文文档](https://www.sass.hk/docs/)
+- [CSS转Sass](https://www.sass.hk/css2sass/)
+~~~
+npm i -D node-sass
+npm i -D sass-loader
+~~~

@@ -26,6 +26,8 @@
  * ```
  */
 
+import './style.scss';
+import './style.sass';
 import './index.css';
 
 // eslint-disable-next-line no-console
