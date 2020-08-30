@@ -44,3 +44,8 @@ npm i -D copy-webpack-plugin
 ~~~
 npm i vuex
 ~~~
+
+## [vue-router](https://router.vuejs.org/zh/)
+~~~
+npm i vue-router
+~~~
