@@ -2,6 +2,8 @@
   "extends": "eslint-config-airbnb",
   "rules": {
     // 禁用导包检查
-    "import/no-extraneous-dependencies": 0
+    "import/no-extraneous-dependencies": 0,
+    // 禁用全局导入检查
+    "global-require": 0
   }
 }
