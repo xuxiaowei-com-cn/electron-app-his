@@ -27,3 +27,14 @@ npm i -D eslint-plugin-react
 npm i -D node-sass
 npm i -D sass-loader
 ~~~
+
+## vue
+- [vue cli](https://cli.vuejs.org/zh/)
+- [vue-loader](https://vue-loader.vuejs.org/guide/#manual-setup)
+- [copy-webpack-plugin](https://developer.aliyun.com/mirror/npm/package/copy-webpack-plugin)
+~~~
+npm i vue
+npm i -D vue-loader
+npm i -D vue-template-compiler
+npm i -D copy-webpack-plugin
+~~~

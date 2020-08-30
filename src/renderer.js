@@ -30,5 +30,14 @@ import './css/style.scss';
 import './css/style.sass';
 import './css/index.css';
 
+import Vue from 'vue';
+import App from './App.vue';
+
+Vue.config.productionTip = false;
+
+new Vue({
+  render: (h) => h(App),
+}).$mount('#app');
+
 // eslint-disable-next-line no-console
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
