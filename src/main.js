@@ -1,5 +1,4 @@
 const { app, BrowserWindow } = require('electron');
-// eslint-disable-next-line no-unused-vars
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -12,6 +11,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: path.join(__dirname, 'assets/img/icon.png'),
   });
 
   // and load the index.html of the app.
