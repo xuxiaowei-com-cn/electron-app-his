@@ -26,9 +26,9 @@
  * ```
  */
 
-import './style.scss';
-import './style.sass';
-import './index.css';
+import './css/style.scss';
+import './css/style.sass';
+import './css/index.css';
 
 // eslint-disable-next-line no-console
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
