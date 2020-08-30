@@ -31,10 +31,13 @@ import './css/style.sass';
 import './css/index.css';
 
 import Vue from 'vue';
+import ElementUI from 'element-ui';
 import App from './App.vue';
 
 import store from './store';
 import router from './router';
+
+Vue.use(ElementUI);
 
 Vue.config.productionTip = false;
 

@@ -49,3 +49,8 @@ npm i vuex
 ~~~
 npm i vue-router
 ~~~
+
+## [element-ui](https://element.eleme.cn/#/zh-CN/component/installation)
+~~~
+npm i element-ui
+~~~

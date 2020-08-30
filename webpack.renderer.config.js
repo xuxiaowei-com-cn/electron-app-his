@@ -21,6 +21,16 @@ module.exports = {
           from: `${__dirname}/src/assets`,
           to: `${__dirname}/.webpack/renderer${process.env.NODE_ENV === 'development' ? '' : '/main_window'}/assets`,
         },
+        // element-ui 样式
+        {
+          from: `${__dirname}/node_modules/element-ui/lib/theme-chalk/index.css`,
+          to: `${__dirname}/.webpack/renderer${process.env.NODE_ENV === 'development' ? '' : '/main_window'}/element-ui/lib/theme-chalk/index.css`,
+        },
+        // element-ui 字体
+        {
+          from: `${__dirname}/node_modules/element-ui/lib/theme-chalk/fonts`,
+          to: `${__dirname}/.webpack/renderer${process.env.NODE_ENV === 'development' ? '' : '/main_window'}/element-ui/lib/theme-chalk/fonts`,
+        },
       ],
     }),
   ],
