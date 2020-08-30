@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-airbnb",
+  "rules": {
+    // 禁用导包检查
+    "import/no-extraneous-dependencies": 0
+  }
+}
