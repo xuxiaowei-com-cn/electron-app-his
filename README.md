@@ -3,6 +3,7 @@
 
 ## 创建项目
 - [Electron Forge Webpack](https://www.electronforge.io/templates/webpack-template)
+- [electron](https://developer.aliyun.com/mirror/npm/package/electron)
 ~~~
 npm i -g create-electron-app
 npx create-electron-app my-new-app --template=webpack
