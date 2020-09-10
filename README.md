@@ -41,17 +41,28 @@ npm i -D copy-webpack-plugin
 ~~~
 
 ## vuex
-- [vuex](https://vuex.vuejs.org/zh/installation.html)
+- [vuex installation](https://vuex.vuejs.org/zh/installation.html)
+- [vuex](https://developer.aliyun.com/mirror/npm/package/vuex)
 ~~~
 npm i vuex
 ~~~
 
-## [vue-router](https://router.vuejs.org/zh/)
+## vue-router
+- [vue-router zh](https://router.vuejs.org/zh/)
+- [vue-router](https://developer.aliyun.com/mirror/npm/package/vue-router)
 ~~~
 npm i vue-router
 ~~~
 
-## [element-ui](https://element.eleme.cn/#/zh-CN/component/installation)
+## element-ui
+- [element-ui installation](https://element.eleme.cn/#/zh-CN/component/installation)
+- [element-ui](https://developer.aliyun.com/mirror/npm/package/element-ui)
 ~~~
 npm i element-ui
+~~~
+
+## electron-log
+- [electron-log](https://developer.aliyun.com/mirror/npm/package/electron-log)
+~~~
+npm i electron-log
 ~~~

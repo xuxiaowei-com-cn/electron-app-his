@@ -13,6 +13,9 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  created() {
+    this.$userLog.info('home.vue created')
   }
 }
 </script>

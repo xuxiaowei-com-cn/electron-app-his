@@ -12,6 +12,9 @@ const createWindow = () => {
     width: 800,
     height: 600,
     icon: path.join(__dirname, 'assets/img/icon.png'),
+    webPreferences: {
+      nodeIntegration: true,
+    },
   });
 
   // and load the index.html of the app.
