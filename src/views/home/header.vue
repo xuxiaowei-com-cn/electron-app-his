@@ -1,12 +1,13 @@
 <template>
-  <el-container id="about">
-    <h2>About</h2>
+  <el-container id="home-header">
+    <h2>Home Header</h2>
   </el-container>
 </template>
 
 <script>
+
 export default {
-  name: 'About',
+  name: 'HomeHeader',
 };
 </script>
 
