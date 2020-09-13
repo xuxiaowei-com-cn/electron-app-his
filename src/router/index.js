@@ -6,6 +6,7 @@ import aboutRoutes from './about';
 import ipdRoutes from './ipd';
 import opdRoutes from './opd';
 import ndRoutes from './nd';
+import demoRsaRoutes from './demo/rsa';
 
 import { userLog } from '../log';
 
@@ -20,6 +21,7 @@ const routes = [
   ipdRoutes,
   opdRoutes,
   ndRoutes,
+  demoRsaRoutes,
 ];
 
 /**
