@@ -75,7 +75,14 @@ npm i electron-store
 ~~~
 
 ## jsencrypt
-- [jsencrypt](https://github.com/travist/jsencrypt)
+- [jsencrypt](https://developer.aliyun.com/mirror/npm/package/jsencrypt)
+- [jsencrypt github](https://github.com/travist/jsencrypt)
 ~~~
 npm i jsencrypt
+~~~
+
+## fs
+- [fs](https://developer.aliyun.com/mirror/npm/package/fs)
+~~~
+npm i fs
 ~~~
