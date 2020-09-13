@@ -73,3 +73,9 @@ npm i electron-log
 ~~~
 npm i electron-store
 ~~~
+
+## jsencrypt
+- [jsencrypt](https://github.com/travist/jsencrypt)
+~~~
+npm i jsencrypt
+~~~
