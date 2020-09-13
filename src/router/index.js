@@ -3,6 +3,9 @@ import VueRouter from 'vue-router';
 
 import homeRoutes from './home';
 import aboutRoutes from './about';
+import ipdRoutes from './ipd';
+import opdRoutes from './opd';
+import ndRoutes from './nd';
 
 import { userLog } from '../log';
 
@@ -14,6 +17,9 @@ Vue.use(VueRouter);
 const routes = [
   homeRoutes,
   aboutRoutes,
+  ipdRoutes,
+  opdRoutes,
+  ndRoutes,
 ];
 
 /**
