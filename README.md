@@ -66,3 +66,10 @@ npm i element-ui
 ~~~
 npm i electron-log
 ~~~
+
+## electron-store
+- [electron-store](https://developer.aliyun.com/mirror/npm/package/electron-store)
+- 由于 electron 10 中 enableRemoteModule 的默认值为false（electron 9 中的默认值为true），所以使用 electron 10 时需要设置后才能正常使用
+~~~
+npm i electron-store
+~~~

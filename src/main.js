@@ -1,5 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
+const { initES } = require('./store/electron-store');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -7,13 +8,16 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 }
 
 const createWindow = () => {
+  initES(); // 初始化 electron-store 中的值
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     icon: path.join(__dirname, 'assets/img/icon.png'),
     webPreferences: {
-      nodeIntegration: true,
+      nodeIntegration: true, // 开启 node
+      enableRemoteModule: true, // 开启 remote
     },
   });
 
