@@ -66,3 +66,9 @@ npm i element-ui
 ~~~
 npm i electron-log
 ~~~
+
+## electron-store
+- [electron-store](https://developer.aliyun.com/mirror/npm/package/electron-store)
+~~~
+npm i electron-store
+~~~

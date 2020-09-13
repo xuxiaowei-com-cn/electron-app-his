@@ -1,3 +1,5 @@
+import { initES } from './store/electron-store';
+
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
@@ -7,6 +9,8 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
 }
 
 const createWindow = () => {
+  initES(); // 初始化 electron-store 中的值
+
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,

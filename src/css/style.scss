@@ -1,0 +1,25 @@
+$form-label-i-color: #d2d2d2; // form 图标颜色
+$span-color: #606266; // 普通说明文字颜色
+$font-family: Avenir, Helvetica, Arial, sans-serif; // 字体
+$color: #2c3e50; // 字体颜色
+$hover-color: #409EFF; // 鼠标覆盖颜色
+$hover-border-color: #c6e2ff; // 鼠标覆盖边框色
+$hover-background-color: #fff; // 鼠标覆盖背景色
+$ico-color: #909399; // 图标颜色
+
+/* 居中 */
+.t-a-c {
+  text-align: center;
+}
+
+/* 输入框图标位置 */
+.form-label-i {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  z-index: 1;
+  color: $form-label-i-color;
+}
