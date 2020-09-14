@@ -38,6 +38,7 @@ import store from './store';
 import router from './router';
 import { sysLog, userLog } from './log';
 
+const CryptoJS = require('crypto-js');
 const { getESVal, initES, setESVal } = require('./store/electron-store');
 
 Vue.use(ElementUI);
@@ -46,6 +47,7 @@ Vue.config.productionTip = false;
 
 Vue.prototype.$userLog = userLog;
 Vue.prototype.$sysLog = sysLog;
+Vue.prototype.$CryptoJS = CryptoJS;
 Vue.prototype.$getESVal = getESVal;
 Vue.prototype.$setESVal = setESVal;
 Vue.prototype.$initES = initES;

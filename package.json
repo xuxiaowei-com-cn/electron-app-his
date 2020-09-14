@@ -90,6 +90,7 @@
     "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
+    "crypto-js": "^4.0.0",
     "electron-log": "^4.2.4",
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^6.0.0",
