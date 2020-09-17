@@ -81,12 +81,6 @@ npm i electron-store
 npm i jsencrypt
 ~~~
 
-## fs
-- [fs](https://developer.aliyun.com/mirror/npm/package/fs)
-~~~
-npm i fs
-~~~
-
 ## crypto-js
 - [crypto-js](https://developer.aliyun.com/mirror/npm/package/crypto-js)
 ~~~
