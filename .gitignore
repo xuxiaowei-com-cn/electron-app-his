@@ -89,6 +89,12 @@ typings/
 # Electron-Forge
 out/
 
-# IDEA
-/.idea
-/*.iml
+# Editor directories and files
+.idea
+*.iml
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
