@@ -60,3 +60,22 @@ new Vue({
 
 // eslint-disable-next-line no-console
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
+
+// <div id="node-version"></div>
+// <div id="chrome-version"></div>
+// <div id="electron-version"></div>
+// All of the Node.js APIs are available in the preload process.
+// It has the same sandbox as a Chrome extension.
+// eslint-disable-next-line no-undef
+window.addEventListener('DOMContentLoaded', () => {
+  const replaceText = (selector, text) => {
+    // eslint-disable-next-line no-undef
+    const element = document.getElementById(selector);
+    if (element) element.innerText = text;
+  };
+
+  // eslint-disable-next-line no-restricted-syntax
+  for (const type of ['chrome', 'node', 'electron']) {
+    replaceText(`${type}-version`, `${type} ${process.versions[type]}`);
+  }
+});
