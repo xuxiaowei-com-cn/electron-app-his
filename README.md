@@ -86,3 +86,7 @@ npm i jsencrypt
 ~~~
 npm i crypto-js
 ~~~
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/xuxiaowei-com-cn/electron-app-his.svg)](https://starchart.cc/xuxiaowei-com-cn/electron-app-his)
